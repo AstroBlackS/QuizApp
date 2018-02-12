@@ -19,6 +19,89 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    //Resets ALL radio buttons (probably a better way to do this, but I don't know how yet)
+    private void resetChecked(){
+        //Q1 buttons --------------------------------------------------
+        RadioButton q1a = (RadioButton) findViewById(R.id.q1a);
+        q1a.setChecked(false);
+        RadioButton q1b = (RadioButton) findViewById(R.id.q1b);
+        q1b.setChecked(false);
+        RadioButton q1c = (RadioButton) findViewById(R.id.q1c);
+        q1c.setChecked(false);
+        RadioButton q1d = (RadioButton) findViewById(R.id.q1d);
+        q1d.setChecked(false);
+
+        //Q2 buttons --------------------------------------------------
+        RadioButton q2a = (RadioButton) findViewById(R.id.q2a);
+        q2a.setChecked(false);
+        RadioButton q2b = (RadioButton) findViewById(R.id.q2b);
+        q2b.setChecked(false);
+        RadioButton q2c = (RadioButton) findViewById(R.id.q2c);
+        q2c.setChecked(false);
+        RadioButton q2d = (RadioButton) findViewById(R.id.q2d);
+        q2d.setChecked(false);
+
+        //Q3 buttons --------------------------------------------------
+        RadioButton q3a = (RadioButton) findViewById(R.id.q3a);
+        q3a.setChecked(false);
+        RadioButton q3b = (RadioButton) findViewById(R.id.q3b);
+        q3b.setChecked(false);
+        RadioButton q3c = (RadioButton) findViewById(R.id.q3c);
+        q3c.setChecked(false);
+        RadioButton q3d = (RadioButton) findViewById(R.id.q3d);
+        q3d.setChecked(false);
+
+        //Q4 buttons --------------------------------------------------
+        RadioButton q4a = (RadioButton) findViewById(R.id.q4a);
+        q4a.setChecked(false);
+        RadioButton q4b = (RadioButton) findViewById(R.id.q4b);
+        q4b.setChecked(false);
+        RadioButton q4c = (RadioButton) findViewById(R.id.q4c);
+        q4c.setChecked(false);
+        RadioButton q4d = (RadioButton) findViewById(R.id.q4d);
+        q4d.setChecked(false);
+
+        //Q5 buttons --------------------------------------------------
+        RadioButton q5a = (RadioButton) findViewById(R.id.q5a);
+        q5a.setChecked(false);
+        RadioButton q5b = (RadioButton) findViewById(R.id.q5b);
+        q5b.setChecked(false);
+        RadioButton q5c = (RadioButton) findViewById(R.id.q5c);
+        q5c.setChecked(false);
+        RadioButton q5d = (RadioButton) findViewById(R.id.q5d);
+        q5d.setChecked(false);
+
+        //Q6 buttons --------------------------------------------------
+        RadioButton q6a = (RadioButton) findViewById(R.id.q6a);
+        q6a.setChecked(false);
+        RadioButton q6b = (RadioButton) findViewById(R.id.q6b);
+        q6b.setChecked(false);
+        RadioButton q6c = (RadioButton) findViewById(R.id.q6c);
+        q6c.setChecked(false);
+        RadioButton q6d = (RadioButton) findViewById(R.id.q6d);
+        q6d.setChecked(false);
+
+        //Q7 buttons --------------------------------------------------
+        RadioButton q7a = (RadioButton) findViewById(R.id.q7a);
+        q7a.setChecked(false);
+        RadioButton q7b = (RadioButton) findViewById(R.id.q7b);
+        q7b.setChecked(false);
+        RadioButton q7c = (RadioButton) findViewById(R.id.q7c);
+        q7c.setChecked(false);
+        RadioButton q7d = (RadioButton) findViewById(R.id.q7d);
+        q7d.setChecked(false);
+
+        //Q8 buttons --------------------------------------------------
+        RadioButton q8a = (RadioButton) findViewById(R.id.q8a);
+        q8a.setChecked(false);
+        RadioButton q8b = (RadioButton) findViewById(R.id.q8b);
+        q8b.setChecked(false);
+        RadioButton q8c = (RadioButton) findViewById(R.id.q8c);
+        q8c.setChecked(false);
+        RadioButton q8d = (RadioButton) findViewById(R.id.q8d);
+        q8d.setChecked(false);
+
+    }
     public void submit(View view) {
 
         //Check Correct answer for Q1 and add score
@@ -104,6 +187,10 @@ public class MainActivity extends AppCompatActivity {
         }
         //Reset score to 0
         score = 0;
+
+        //Reset ALL radio buttons
+        resetChecked();
+
     }
 
 }
