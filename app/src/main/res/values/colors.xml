@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#4A148C</color>
     <color name="colorAccent">#EA80FC</color>
     <color name="statusBar">@android:color/transparent</color>
+    <color name="instructions">@android:color/white</color>
 </resources>

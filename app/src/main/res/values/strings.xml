@@ -58,4 +58,7 @@
     <string name="q8d">D. 1–3</string>
 
     <string name="submit_button">Submit</string>
+
+    <string name="exercise_science">Test Your Exercise Science Knowledge!</string>
+    <string name="instructions">Read and answer the questions below. Click Submit at the bottom to see how you did.</string>
 </resources>

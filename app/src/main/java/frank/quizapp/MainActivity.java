@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
             score += 1;
         }
 
+        //note score, and display appropriate msg
         if (score <= 4){
             Context fail = getApplicationContext();
             CharSequence failtext = "You scored " + score + " out of 8. Better luck next time.";
@@ -101,6 +102,8 @@ public class MainActivity extends AppCompatActivity {
             Toast perfectMsg = Toast.makeText(perfect, perfectTxt, duration);
             perfectMsg.show();
         }
+        //Reset score to 0
+        score = 0;
     }
 
 }

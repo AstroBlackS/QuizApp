@@ -3,5 +3,6 @@
     <dimen name="question_text_size">16sp</dimen>
     <dimen name="radio_button_and_question_padding">3dp</dimen>
     <dimen name="radio_group_padding">5dp</dimen>
+    <dimen name="title_text_size">24sp</dimen>
 
 </resources>
